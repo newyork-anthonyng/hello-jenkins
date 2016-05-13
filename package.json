@@ -1,0 +1,22 @@
+{
+  "name": "hello-jenkins",
+  "version": "1.0.0",
+  "description": "Jenkins Playground",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "supertest": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+}
