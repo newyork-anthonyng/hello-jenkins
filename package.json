@@ -2,7 +2,7 @@
   "name": "hello-jenkins",
   "description": "Jenkins Playground",
   "main": "src/index.js",
-  "version": "1.0.0-semantically-released",
+  "version": "1.1.0-semantically-released",
   "scripts": {
     "test": "mocha tests/index.test.js -w",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
