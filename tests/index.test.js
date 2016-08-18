@@ -32,4 +32,20 @@ describe('starwars-names', function() {
 			});
 		});
 	});
+
+	describe('#get', function() {
+		it('should return the nth item from starWars.all, where n is the number passed in', function() {
+			var item = starWars.get(0);
+			expect(starWars.all).to.include(item);
+			expect(starWars.all[0]).to.equal(item);
+		});
+
+		it('should return undefined if the number is out of range', function() {
+			var num1 = -1;
+			var num2 = starWars.all.length + 10;
+
+			expect(starWars.get(num1)).to.be.undefined;
+			expect(starWars.get(num2)).to.be.undefined;
+		});
+	});
 });

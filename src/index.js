@@ -4,7 +4,8 @@ var getRandomItem = uniqueRandomArray(starWarsNames);
 
 module.exports = {
 	all: starWarsNames,
-	random: random
+	random: random,
+	get: get
 };
 
 function random(number) {
@@ -17,4 +18,8 @@ function random(number) {
 		}
 		return randomItems;
 	}
+}
+
+function get(number) {
+	return starWarsNames[number];
 }
