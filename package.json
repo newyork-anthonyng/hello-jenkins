@@ -1,14 +1,15 @@
 {
   "name": "hello-jenkins",
-  "version": "1.0.0",
   "description": "Jenkins Playground",
-  "main": "index.js",
+  "main": "src/index.js",
+  "version": "1.0.0-semantically-released",
   "scripts": {
-    "test": "mocha tests/index.test.js -w"
+    "test": "mocha tests/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newyork-anthonyng/hello-jenkins.git"
+    "url": "https://github.com/newyork-anthonyng/hello-jenkins.git"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +19,8 @@
   "homepage": "https://github.com/newyork-anthonyng/hello-jenkins#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "unique-random-array": "^1.0.0"
