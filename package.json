@@ -2,21 +2,18 @@
   "name": "hello-jenkins",
   "version": "1.0.0",
   "description": "Jenkins Playground",
-  "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "express": "^4.13.4",
-    "supertest": "^1.2.0"
-  },
-  "devDependencies": {
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newyork-anthonyng/hello-jenkins.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/newyork-anthonyng/hello-jenkins#readme"
 }
