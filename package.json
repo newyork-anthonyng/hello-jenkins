@@ -4,7 +4,7 @@
   "description": "Jenkins Playground",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/newyork-anthonyng/hello-jenkins/issues"
   },
-  "homepage": "https://github.com/newyork-anthonyng/hello-jenkins#readme"
+  "homepage": "https://github.com/newyork-anthonyng/hello-jenkins#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
 }
